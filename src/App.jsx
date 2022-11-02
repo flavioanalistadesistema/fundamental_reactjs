@@ -1,13 +1,16 @@
 import { Post } from "../src/Post";
 
-function App() {
+export function App() {
   return (
     <div>
-      <Post />
-      <Post />
-      <Post />
+      <Post 
+        author="Flávio Santos"
+        content="Desenvolvedor Senior"
+      />
+      <Post 
+        author="Luciana Santos"
+        content="Design Sobrancelha"
+      />
     </div>
   );
 }
-
-export default App;
