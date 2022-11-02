@@ -1,10 +1,13 @@
-function App() {
+import { Post } from "../src/Post";
 
+function App() {
   return (
-    <div className="App">
-      <h1>Hello Word!</h1>
+    <div>
+      <Post />
+      <Post />
+      <Post />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
