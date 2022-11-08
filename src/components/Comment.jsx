@@ -5,7 +5,7 @@ export function Comment() {
     return (
         <div className={styles.comment}>
             <img src="https://github.com/flavioanalistadesistema.png" alt="" />
-            <dir className={styles.commentox}>
+            <dir className={styles.commenBox}>
                 <div className={styles.commentContent}>
                     <header>
                         <div className={styles.authorAndtime}>
@@ -13,10 +13,10 @@ export function Comment() {
                             <time title="23 de outubro as 08:00" dateTime="2022-05-11 08:00:00">Publicado há 1 dia</time>
                         </div>
                         <button title='Deletar comentário'>
-                            <Trash />
+                            <Trash size={24}/>
                         </button>
-                        <p>Muito bom Devon, parabéns!! 👏👏</p>
                     </header>
+                    <p>Muito bom Devon, parabéns!! 👏👏</p>
                 </div>
                 <footer>
                     <button>
